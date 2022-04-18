@@ -65,7 +65,7 @@ public class Service {
         return new ArrayList<Person>(persons.values());
     }
     
-    @GET
+    /*@GET
     @Path("/getAvarageSalaryInJson")
     @Produces (MediaType.APPLICATION_JSON)
     public Company getAvarageSalaryInJson(){
@@ -77,7 +77,7 @@ public class Service {
     @Produces (MediaType.APPLICATION_XML)
     public Company getAvarageSalaryInJson(){
         return person.getsalario() = salario*salario/10;
-    }
+    }*/
     
     @POST
     @Path("/addPersonInJson")
